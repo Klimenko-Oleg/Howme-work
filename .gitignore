@@ -1,6 +1,3 @@
-venv/
-.vscode/
-.DS_Store
-.pytest_cache/
-*.tmp
-*.log
+.pytest_cache
+/venv
+
