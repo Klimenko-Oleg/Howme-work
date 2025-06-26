@@ -9,6 +9,7 @@ driver = webdriver.Chrome(
     service=ChromeService(ChromeDriverManager().install())
 )
 
+
 driver.get(
     "https://bonigarcia.dev/selenium-webdriver-java/slow-calculator.html"
 )

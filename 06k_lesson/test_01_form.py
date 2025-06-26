@@ -23,7 +23,6 @@ def browser():
 def test_data_types_form(browser):
     """Тест заполнения формы и проверки подсветки полей."""
 
-    # 1. Заполняем форму
     first_name = browser.find_element(By.NAME, "first-name")
     first_name.send_keys("Иван")
 

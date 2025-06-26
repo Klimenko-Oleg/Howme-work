@@ -41,7 +41,6 @@ def test_shop(driver):
     driver.find_element(By.ID, "postal-code").send_keys("145117")
     driver.find_element(By.ID, "continue").click()
 
-    # 6. Получение и проверка итоговой суммы
     total_element = driver.find_element(
         By.CLASS_NAME, "summary_total_label"
     )
