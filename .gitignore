@@ -1,3 +1,10 @@
 .pytest_cache
 venv/
 .venv
+06k_lesson
+07_lesson/pages/__pycache__
+07_lesson/__pycache__
+07_lesson/utils/__pycache__
+07_lesson/tests/__pycache__
+04_lesson/__pycache__
+__pycache__
