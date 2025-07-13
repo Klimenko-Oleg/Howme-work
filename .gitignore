@@ -5,4 +5,5 @@ venv/
 06k_lesson
 07_lesson
 .vscode
-08_lesson/__pycache__
+__pycache__
+__pycache__
